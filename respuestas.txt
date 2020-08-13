@@ -1,0 +1,35 @@
+I. Responde las siguientes preguntas
+	A. ¿Cual es la ventaja de que JavaScript sea un lenguaje interpretado-compilado?
+		R= La ventaja es que se ejecuta mas rapido leyendo directamente el codigo fuente por una maquina virtual.
+	B. ¿Cual es la diferencia entre null y undefined?
+		R= Null representa la referencia nula, vacia, o inexistente. Undefined se utiliza cuando una variable no se ha asignado su valor.
+	C. Explica el concepto de type coercion
+		R= Es un proceso que nos indica la comparación entre un tipo de valor y otro utilizando la igualdad o desigualdad.
+	D. ¿Que representan los valores numericos NaN e Infinity?
+		R= NaN que no es un numero e Infinity significa que es mayor que cualquier otro numero, es decir, infinito.
+
+II.Calcula el valor booleano de las siguientes expresiones logicas y explica tu respuesta:
+
+	!!true || (!null != !1) True
+	Primero se resuelve lo de los parentesis,verdadero es diferente de falso, es verdadero, ahora lo de afuera, la doble negación de true, es verdadero.
+	Por ultimo resolvemos la ultima comparación de ambos resultados, verdadero or verdadero, da como resultado verdadero, y la respuesta final es true.
+	
+	NaN && undefined == null False
+	NaN and indefinido, dan como resultado falso, ahora comparando falso es igual a nulo, la respuesta es incorrecta, ya que son de diferente tipo, por eso es falso.
+	
+	10 === 010  False
+	La respuesta seria verdadera si solo tuviera dos signos ==, pero de acuerdo a la igualdad estricta ===, los dos valores deben ser exactamente igual,
+	y no es asi, ya que hay un cero mas en el segundo valor, por eso es falso.
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
